@@ -44,7 +44,7 @@ NOTE: I will refer to two different types of queries here.  If I say request que
 
  - In your POST route handler, create a new document under the `sightings` collection.  If you are confused how the logic for this might look, refer back to the [docs](https://github.com/mafintosh/mongojs#api). Send an appropriate response to the client (success, or error).
 
-**Breakpoint:** You should be able to save data to your database now.  After posting one or two pieces of dummy data, check to see that that data now exists, using either the command line or a GUI like RoboMongo. If you can see data in your database, you will know that you are correctly connected to the database, and that it is saving correctly.
+<!-- **Breakpoint:** You should be able to save data to your database now.  After posting one or two pieces of dummy data, check to see that that data now exists, using either the command line or a GUI like RoboMongo. If you can see data in your database, you will know that you are correctly connected to the database, and that it is saving correctly. -->
 
  - In your GET route handler, create a MongoJS query that will return sightings.  If there is a region specified in the request query, return only the sightings in that region.  If the request query specifies a species, return only the sightings of that species.  If there are no request queries, return all of the sightings.
 
